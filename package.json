@@ -1,14 +1,14 @@
 {
-  "name": "combust-friends",
-  "version": "1.0.30",
-  "description": "friends module for combust",
+  "name": "combust-user-search",
+  "version": "1.0.0",
+  "description": "user search module for combust",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "combust",
-    "friends",
+    "user search",
     "firebase"
   ],
   "author": "mrjoeroddy@gmail.com",
