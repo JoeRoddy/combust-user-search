@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "users": "latest"
+  },
+  "cloudFunctions": true,
+  "installation": {
+    "**functions/index.js": {
+      "fileEnd": [
+        "const { userSearch } = require(\"./api/userSearchApi\");",
+        "exports.userSearch = functions.https.onRequest((request, response) => {",
+        "  response.set(\"Access-Control-Allow-Origin\", \"*\");",
+        "  userSearch(request, response);",
+        "});"
+      ]
+    }
+  }
+}
