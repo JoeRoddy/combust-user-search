@@ -4,7 +4,7 @@
   },
   "cloudFunctions": true,
   "installation": {
-    "**functions/index.js": {
+    "functions/index.js": {
       "fileEnd": [
         "const { userSearch } = require(\"./api/userSearchApi\");",
         "exports.userSearch = functions.https.onRequest((request, response) => {",
