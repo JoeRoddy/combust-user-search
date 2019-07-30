@@ -1,6 +1,6 @@
 {
   "name": "combust-user-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "user search module for combust",
   "main": "index.js",
   "scripts": {
